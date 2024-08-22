@@ -30,6 +30,5 @@ function trackfroyoflavors() {
   return froyo;
 }
 // call the function to track the flavors
-const flavorcounts = trackfroyoflavors();
-console.log(flavorcounts);
+console.table(trackfroyoflavors());
 
