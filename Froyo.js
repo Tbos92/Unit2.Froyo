@@ -5,7 +5,7 @@ const flavors = prompt(
 
 // convert user input into an array of individual flavors
 const flavorsArray = flavors.split(",");
-console.log(flavorsArray);
+// console.log(flavorsArray); was here for testing
 
 // create an object to track flavors that have been observed
 const froyo = {};
